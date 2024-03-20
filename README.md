@@ -28,7 +28,7 @@ Currently only compatible with ESX . Support for QBcore is coming soon!
 
 
 # Download:
-GitHub: 
+GitHub: https://github.com/KING0664/raze-moneyhud
 
 # Discord: editlife
 # Discord Team (Support): https://discord.gg/Xr7MJnxUmk
