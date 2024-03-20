@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("fondo.png");
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.infoauto {
+  position: relative;
+}
+
+.supiz {
+  float: left;
+}
+
+.id {
+  width: 5vh; 
+  height: 4vh; 
+  display: inline-block; /* Ensures elements are displayed in a row */
+  font-size: 1.4vw;
+  font-weight: 800;
+  text-shadow: 0 0 3px #04f5919a;
+  color: white;
+  padding: 6px;
+  border-radius: 50%; 
+  box-sizing: border-box; 
+  align-items: center;
+}
+
+.fecha {
+  position: absolute;
+  top: 1vw;
+  right: 1.2vw;
+}
+
+.infoplayer {
+  position: fixed;
+  top: 3.5vw;
+  right: 1.2vw;
+  text-align: right;
+  z-index: 1000;
+}
+
+.dinero,
+.bank,
+.black {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  padding: 3px; 
+  margin: 3px; 
+  float: right; 
+  clear: both; 
+  background-color: rgba(235, 252, 0, 0.6); 
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.6), 0 0 20px rgba(255, 255, 0, 0.6), 0 0 30px rgba(255, 255, 0, 0.6); /* Same shadow as .id class */
+}
+
+.dinero, .bank, .black {
+  width: auto; 
+  display: inline-block; 
+  font-size: 1.4vw;
+  text-shadow: 0 0 3px #04f5919a;
+  padding: 6px;
+  border-radius: 15px;
+  box-sizing: border-box; 
+  align-items: center;
+}
+
+
+.dinero:hover,
+.id:hover,
+.bank:hover,
+.black:hover {
+  opacity: 0.8; 
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.6); 
+}
+
+.dinero,
+.id,
+.bank,
+.black {
+  transition: all 0.3s ease; 
+}
+
+.dinero,
+.id,
+.bank,
+.black {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.dinero,
+.id,
+.bank,
+.black {
+  background: linear-gradient(to bottom, #4CAF50, #2E8B57); /* Green gradient */
+}
+
+.dinero,
+.id,
+.bank,
+.black {
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Custom Fonts */
+body {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+}
+
+
+@media only screen and (max-width: 768px) {
+  .infoplayer {
+    top: 10vw; /* Adjust top position for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .infoplayer {
+    top: 5.5vw;
+  }
+}
+
+@media only screen and (max-width: 1600) {
+  .infoplayer {
+    top: 4.5vw;
+  }
+}
